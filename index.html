@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>SokurApps</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f5f7fb;
+            color: #1e2a3d;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1.2rem;
+        }
+
+        .card {
+            max-width: 700px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 2.8rem;
+            box-shadow: 0 30px 50px -20px rgba(17, 34, 68, 0.25);
+            padding: 4rem 3rem;
+            border: 1px solid #dee7f2;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.01);
+        }
+
+        h1 {
+            font-size: 4.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #102a44;
+            margin-bottom: 0.5rem;
+            line-height: 1.1;
+            border-left: none;
+            padding-left: 0;
+        }
+
+        .accent-line {
+            width: 100px;
+            height: 6px;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            border-radius: 8px;
+            margin: 1.8rem auto 2rem auto;
+            border: none;
+        }
+
+        .sub {
+            font-size: 1.4rem;
+            color: #4b6589;
+            font-weight: 400;
+            max-width: 450px;
+            margin: 0 auto 1rem auto;
+        }
+
+        .developer-icon {
+            font-size: 5rem;
+            margin-bottom: 0.8rem;
+            line-height: 1;
+            filter: drop-shadow(0 8px 12px rgba(37, 99, 235, 0.2));
+        }
+
+        .tagline {
+            font-size: 1.15rem;
+            color: #2c405c;
+            background: #f0f5fe;
+            padding: 0.8rem 1.8rem;
+            border-radius: 60px;
+            display: inline-block;
+            margin: 2rem 0 1.2rem 0;
+            border: 1px solid #d9e5ff;
+        }
+
+        .footer-note {
+            font-size: 0.95rem;
+            color: #687e9c;
+            margin-top: 2.5rem;
+            border-top: 1px dashed #cbd6e8;
+            padding-top: 2rem;
+        }
+
+        .footer-note a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .footer-note a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 500px) {
+            .card {
+                padding: 3rem 1.8rem;
+                border-radius: 2.2rem;
+            }
+            h1 {
+                font-size: 3.2rem;
+            }
+            .sub {
+                font-size: 1.2rem;
+            }
+            .developer-icon {
+                font-size: 4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="developer-icon">📱</div>
+        <h1>App Developer</h1>
+        <div class="accent-line"></div>
+        <div class="sub">SokurApps</div>
+        
+        <div class="tagline">
+            ✦ creating mobile experiences ✦
+        </div>
+
+        <div class="footer-note">
+            © 2026
+        </div>
+    </div>
+</body>
+</html>
