@@ -3,7 +3,7 @@
   "apps": [
     {
       "id": "com.cube.online",
-      "name": { "en": "CUBE WORLD",
+      "name": { "en": "CUBE WORLD"},
       "sub": { "en": "Cube game", "ru": "Кубическая игра" },
       "img": "app.webp"
     }
