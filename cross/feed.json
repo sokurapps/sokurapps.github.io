@@ -3,7 +3,7 @@
   "apps": [
     {
       "id": "com.cube.online",
-      "name": { "en": "CUBE CRAFT", "ru: "КУБ КРАФТ"},
+      "name": { "en": "CUBE CRAFT", "ru": "КУБ КРАФТ"},
       "sub": { "en": "Play Free", "ru": "Играй бесплатно" },
       "img": "app.webp"
     }
