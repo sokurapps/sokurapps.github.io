@@ -3,8 +3,8 @@
   "apps": [
     {
       "id": "com.cube.online",
-      "name": { "en": "CUBE WORLD"},
-      "sub": { "en": "Cube game", "ru": "Кубическая игра" },
+      "name": { "en": "CUBE CRAFT", "ru: "КУБ КРАФТ"},
+      "sub": { "en": "Play Free", "ru": "Играй бесплатно" },
       "img": "app.webp"
     }
   ]
